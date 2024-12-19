@@ -1,6 +1,6 @@
 # How to run the chat program
 1. Navigate into the chat directory in terminal
-2. Make a new key with the following command
+2. Make a new key with the following command  
    `openssl req -x509 -newkey rsa:2048 -keyout cert.pem -out cert.pem -days 365 -nodes`
 3. Start the server using the following command in a terminal  
    `python3 server.py --port=9988`
